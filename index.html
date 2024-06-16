@@ -46,6 +46,7 @@
             const params = new URLSearchParams(window.location.search);
             const serverRegion = params.get('url') ? atob(params.get('url')) : 'https://prnscr.github.io/img/lightshot.png';
             document.querySelector('.img').style.backgroundImage = `url('${serverRegion}')`;
+        })();
     </script>
 </body>
 
